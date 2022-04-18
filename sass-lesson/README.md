@@ -1,0 +1,3 @@
+# project
+
+- npm run install
