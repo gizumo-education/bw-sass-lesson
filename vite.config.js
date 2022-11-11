@@ -22,5 +22,8 @@ export default (({ mode }) => {
     server: {
       open: `/${lessonName}/${lessonName}.html`,
     },
+    preview: {
+      open: `/src/${lessonName}/${lessonName}.html`
+    },
   });
 });
