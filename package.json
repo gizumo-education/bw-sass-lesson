@@ -7,7 +7,7 @@
   "scripts": {
     "dev:practice": "cross-env LESSON_NAME=practice vite",
     "dev:puzzle": "cross-env LESSON_NAME=puzzle vite",
-    "build": "vite build"
+    "build": "vite build && cross-env LESSON_NAME=puzzle vite preview"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
